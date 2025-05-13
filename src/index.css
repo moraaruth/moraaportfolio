@@ -5,3 +5,12 @@ html, body {
     background-color: gray;
     color: white;
 }
+
+@theme {
+    --color-white-50: #d9ecff;
+    --color-blue-100: #2dwd38;
+}
+
+@layer utilities {
+    
+}
