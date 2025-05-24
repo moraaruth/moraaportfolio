@@ -4,7 +4,7 @@ const App = () => {
   return (
    <main>
        <div>
-           <h1>Welcome to a God fearing developer, it is God</h1>
+           <h1 className='text-3xl'>Welcome to a God fearing developer, it is God</h1>
        </div>
    </main>
   )
