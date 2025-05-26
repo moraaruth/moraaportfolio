@@ -11,7 +11,9 @@ const App = () => {
 <div className='hero-layout'>
   {/* left displaying hero content to the left side */}
 <header className='flex flex-col justify-center md:w-full w-screen md:px-20 px-5'>
+<div className='flex flex-col gap-7'> 
 
+</div>
 </header>
 {/* right - 3d model */}
 </div>
