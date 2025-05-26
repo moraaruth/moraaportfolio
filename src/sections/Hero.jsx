@@ -1,6 +1,8 @@
 import React from 'react'
 
-
+const words = [
+  { text : 'Ideas', imgPath: }
+]
 const Hero = () => {
   return (
     <section id='hero' className='relative overflow-hidden'>
