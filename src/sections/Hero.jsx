@@ -21,7 +21,7 @@ const Hero = () => {
   <span className='slide'>
     <span className='wrapper'>
       {words.map((word) => (
-        <span key={word.text}>
+        <span key={word.text} className="flex items-center">
 
         </span>
 
