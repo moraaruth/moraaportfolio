@@ -18,7 +18,7 @@ const Hero = () => {
 <div className='flex flex-col gap-7'> 
 <div className='hero-text'>
 <h1>Shaping 
-  <span>
+  <span className='slide'>
   </span>
   </h1>
 <h1>into Real Projects</h1>
