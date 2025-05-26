@@ -1,7 +1,7 @@
 import React from 'react'
 
 const words = [
-  { text : 'Ideas', imgPath: }
+  { text : 'Ideas', imgPath: '/images/ideas.svg' }
 ]
 const Hero = () => {
   return (
