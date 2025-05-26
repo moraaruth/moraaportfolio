@@ -19,8 +19,8 @@ const Hero = () => {
 <div className='hero-text'>
 <h1>Shaping 
   <span className='slide'>
-    <span>
-      
+    <span className='wrapper'>
+
     </span>
   </span>
   </h1>
