@@ -14,6 +14,7 @@ const App = () => {
 <div className='flex flex-col gap-7'> 
 <h1>Shaping</h1>
 <h1>into Real Projects</h1>
+<h1>that Deliver Results</h1>
 </div>
 </header>
 {/* right - 3d model */}
