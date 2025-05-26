@@ -3,8 +3,8 @@ import Hero from './sections/Hero'
 
 const App = () => {
   return (
- <section>
-   
+ <section id='hero'>
+
  </section>
   )
 }
