@@ -20,6 +20,9 @@ const Hero = () => {
 <h1>Shaping 
   <span className='slide'>
     <span className='wrapper'>
+      {words.map((word) => (
+        
+      ))}
 
     </span>
   </span>
