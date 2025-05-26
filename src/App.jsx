@@ -3,7 +3,7 @@ import Hero from './sections/Hero'
 
 const App = () => {
   return (
- <section id='hero'>
+ <section id='hero' className='relative overflow-hidden'>
 
  </section>
   )
