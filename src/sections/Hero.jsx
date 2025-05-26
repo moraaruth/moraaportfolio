@@ -21,7 +21,8 @@ const Hero = () => {
   <span className='slide'>
     <span className='wrapper'>
       {words.map((word) => (
-        
+        <span></span>
+
       ))}
 
     </span>
