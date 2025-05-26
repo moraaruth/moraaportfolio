@@ -6,9 +6,15 @@ const App = () => {
  <section id='hero' className='relative overflow-hidden'>
    <div className='absolute top-0 left-0 z-10'>
    <img src='./assets/public/images/bg.png' alt='background'/>
- <Hero />
    </div>
 
+<div className='hero-layout'>
+  {/* left displaying hero content to the left side */}
+<header>
+  
+</header>
+{/* right - 3d model */}
+</div>
  </section>
 
   )
