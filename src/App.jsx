@@ -10,8 +10,8 @@ const App = () => {
 
 <div className='hero-layout'>
   {/* left displaying hero content to the left side */}
-<header>
-  
+<header className='flex flex-col justify-center md:w-full'>
+
 </header>
 {/* right - 3d model */}
 </div>
