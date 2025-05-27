@@ -40,7 +40,10 @@ const Hero = () => {
 <p className='text-white-50 md:text-xl relative z-10 pointer-events-none'>
     Hi, I am Ruth  web developer and certified cloud practitioner with passion for digital transformation.
   </p>
-  <Button />
+  <Button 
+  className="md:w-80 md:h-16 w-60 h-12"
+  
+  />
 </div>
 </header>
 {/* right - 3d model */}
