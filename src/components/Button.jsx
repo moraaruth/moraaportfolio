@@ -2,7 +2,7 @@ import React from 'react'
 
 const Button = ({ text, className, id }) => {
   return (
-    <a className="cta-wrapper">
+    <a className={`${className ?? ' '}`}>
       <div className="cta-group group">
         <div className="bg-circle" />
         <p className="text">See my work</p>
