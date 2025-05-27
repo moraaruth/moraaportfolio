@@ -1,10 +1,6 @@
 import React from 'react'
 
-const words = [
-  { text : 'Ideas', imgPath: './assets/public/images/ideas.svg' },
-  { text : 'Concepts', imgPath: './assets/public/images/concepts.svg' }
 
-]
 const Hero = () => {
   return (
     <section id='hero' className='relative overflow-hidden'>
