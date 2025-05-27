@@ -32,6 +32,9 @@ const Hero = () => {
     </span>
   </span>
   </h1>
+  <p>
+    Hi, I am Ruth  web developer and certified cloud practitioner with passion for digital transformation.
+  </p>
 <h1>into Real Projects</h1>
 <h1>that Deliver Results</h1>
 </div>
