@@ -32,7 +32,7 @@ const Hero = () => {
     </span>
   </span>
   </h1>
-  <p>
+  <p className='text-white-50 md:text-xl relative z-10'>
     Hi, I am Ruth  web developer and certified cloud practitioner with passion for digital transformation.
   </p>
 <h1>into Real Projects</h1>
