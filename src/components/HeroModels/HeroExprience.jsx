@@ -3,8 +3,8 @@ import React from 'react'
 
 const HeroExprience = () => {
   return (
-  <Canvas> 
-      
+  <Canvas camera={}> 
+
   </Canvas>
   )
 }
