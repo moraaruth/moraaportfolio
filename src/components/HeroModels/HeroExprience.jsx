@@ -7,6 +7,7 @@ const HeroExprience = () => {
       <ambientLight intensity={0.2} color="#1a1a40"/> 
       <mesh>
           <boxGeometry args={[1, 1,1]} />
+          <meshStandardMaterial  color="blue"/>
 
       </mesh>
   </Canvas>
