@@ -8,7 +8,7 @@ const HeroExprience = () => {
       <directionalLight position={[5, 5, 5]} intensity={1} />
       <mesh>
           <boxGeometry args={[1, 1,1]} />
-          <meshStandardMaterial  color="blue"/>
+          <meshStandardMaterial  color="teal"/>
 
       </mesh>
   </Canvas>
