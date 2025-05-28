@@ -6,9 +6,8 @@ const HeroExprience = () => {
   <Canvas camera={{ position: [0, 0, 15], fov: 45 }}>
       <ambientLight intensity={0.2} color="#1a1a40"/> 
       <mesh>
-          <boxGeometry args={[1, 1,1]}>
+          <boxGeometry args={[1, 1,1]} />
 
-          </boxGeometry>
       </mesh>
   </Canvas>
   )
