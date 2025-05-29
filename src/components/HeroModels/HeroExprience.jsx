@@ -1,6 +1,7 @@
 import { OrbitControls } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import React from 'react'
+import { Room } from './Room'
 import { useMediaQuery } from 'react-responsive'
 
 const HeroExprience = () => {
@@ -20,11 +21,7 @@ const HeroExprience = () => {
       maxPolarAngle={Math.PI / 2}
       
       />
-      <mesh>
-          <boxGeometry args={[1, 1,1]} />
-          <meshStandardMaterial  color="teal"/>
-
-      </mesh>
+    <Room />
   </Canvas>
   )
 }
