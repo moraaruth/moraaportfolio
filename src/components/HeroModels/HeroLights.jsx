@@ -7,6 +7,7 @@ const HeroLights = () => {
  position={[2, 5, 6]}
  angle={0.15}
  intensity={100}
+ penubra={0.2}
  
  />
    <ambientLight intensity={0.2} color="#1a1a40"/> 
