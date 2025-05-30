@@ -3,6 +3,7 @@ import { Canvas } from '@react-three/fiber'
 import React from 'react'
 import { Room } from './Room'
 import { useMediaQuery } from 'react-responsive'
+import HeroLights from './HeroLights'
 
 const HeroExprience = () => {
     const isTablet = useMediaQuery({ query: '(max-width: 1024)' });
@@ -17,9 +18,9 @@ const HeroExprience = () => {
       maxDistance={20}
       minDistance={5}
       minPolarAngle={Math.PI / 5}
-      maxPolarAngle={Math.PI / 2}
-      
+      maxPolarAngle={Math.PI / 2}      
       />
+      <HeroLights />
       <group
       scale={isMobile? 0.7 : 1 }
       position={[0, -5, 0]} 
