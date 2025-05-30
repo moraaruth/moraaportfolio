@@ -5,6 +5,7 @@ const HeroLights = () => {
  <>
  <spotLight 
  position={[2, 5, 6]}
+ intensity={100}
  
  />
    <ambientLight intensity={0.2} color="#1a1a40"/> 
