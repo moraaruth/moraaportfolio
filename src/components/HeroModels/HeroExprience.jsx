@@ -21,7 +21,10 @@ const HeroExprience = () => {
       maxPolarAngle={Math.PI / 2}
       
       />
-      <group>
+      <group
+      scale={isMobile? 0.7 : 1 }
+      
+      >
       <Room />
       </group>
    
