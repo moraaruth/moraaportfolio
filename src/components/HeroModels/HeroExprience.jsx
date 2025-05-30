@@ -23,6 +23,7 @@ const HeroExprience = () => {
       />
       <group
       scale={isMobile? 0.7 : 1 }
+      position={[0, -3.5, 0 ]} 
       
       >
       <Room />
