@@ -1,3 +1,4 @@
+import { useThree } from '@react-three/fiber'
 import React from 'react'
 
 const HeroLights = () => {
@@ -28,6 +29,7 @@ const HeroLights = () => {
  />
 
  <primitive 
+ object={new THREE.RectAreaLight}
  
  />
    <ambientLight intensity={0.2} color="#1a1a40"/> 
