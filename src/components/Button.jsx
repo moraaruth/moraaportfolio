@@ -4,7 +4,7 @@
  * with a small offset from the top for better visual placement.
  */
 
- const Button = ({ text, className, id }) => {
+const Button = ({ text, className, id }) => {
   return (
     <a
       onClick={(e) => {
@@ -31,7 +31,7 @@
         <div className="bg-circle" />
         <p className="text">{text}</p>
         <div className="arrow-wrapper">
-          <img src="/images/arrow-down.svg" alt="arrow" />
+        <img src='./assets/public/images/arrow-down.svg' alt='arrow' />
         </div>
       </div>
     </a>
