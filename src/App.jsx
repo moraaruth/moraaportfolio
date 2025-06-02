@@ -1,5 +1,6 @@
 import React from 'react'
-import Hero from './sections/Hero'
+import Hero from './sections/Hero';
+import ShowcaseSection from './sections/ShowcaseSection'
 
 const App = () => {
   return (
