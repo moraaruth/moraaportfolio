@@ -7,9 +7,12 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Room(props) {
-  const matcapTexture = useTexture('/images/public/textures/mat1.png')
+  const matcapTexture = useTexture('/images/public/textures/mat1.png');
   const { nodes, materials } = useGLTF('./assets/public/models/optimized-room.glb')
+ 
+  const curtainMaterial = new THREE.MeshPhongMaterial({ color: '#d90429'})
   return (
+
     <group {...props} dispose={null}>
       <mesh geometry={nodes._________6_blinn1_0.geometry} material={materials.blinn1} />
       <mesh geometry={nodes.body1_blinn1_0.geometry} material={materials.blinn1} />
