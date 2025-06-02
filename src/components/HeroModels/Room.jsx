@@ -18,7 +18,11 @@ export function Room(props) {
     <group {...props} dispose={null}>
 
       <EffectComposer>
+        <SelectiveBloom 
+        selection={screensRef}
         
+        />
+
       </EffectComposer>
       <mesh geometry={nodes._________6_blinn1_0.geometry} material={materials.blinn1} />
       <mesh geometry={nodes.body1_blinn1_0.geometry} material={materials.blinn1} />
