@@ -20,7 +20,7 @@ export function Room(props) {
       <EffectComposer>
         <SelectiveBloom 
         selection={screensRef}
-        
+        intensity={5}
         />
 
       </EffectComposer>
