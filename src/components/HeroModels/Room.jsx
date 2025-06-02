@@ -7,6 +7,7 @@ import React from 'react'
 import { useGLTF } from '@react-three/drei'
 
 export function Room(props) {
+  const matcapTexture = useTexture()
   const { nodes, materials } = useGLTF('./assets/public/models/optimized-room.glb')
   return (
     <group {...props} dispose={null}>
