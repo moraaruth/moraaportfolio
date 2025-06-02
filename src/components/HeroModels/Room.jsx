@@ -22,6 +22,7 @@ export function Room(props) {
         selection={screensRef}
         intensity={5}
         luminanceThreshold={0.2}
+        luminanceSmoothing={0.9}
         />
 
       </EffectComposer>
