@@ -23,6 +23,7 @@ export function Room(props) {
         intensity={5}
         luminanceThreshold={0.2}
         luminanceSmoothing={0.9}
+        blendFunction={blendFunction}
         />
 
       </EffectComposer>
