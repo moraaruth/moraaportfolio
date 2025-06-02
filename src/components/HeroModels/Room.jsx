@@ -21,6 +21,7 @@ export function Room(props) {
         <SelectiveBloom 
         selection={screensRef}
         intensity={5}
+        luminanceThreshold={0.2}
         />
 
       </EffectComposer>
