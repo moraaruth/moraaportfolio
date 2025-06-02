@@ -35,6 +35,7 @@ const HeroLights = () => {
  intensity={15}
  rotation={[-Math.PI / 4, Math.PI / 4, 0]}
  />
+ <pointLight />
    {/* <ambientLight intensity={0.2} color="#1a1a40"/> 
       <directionalLight position={[5, 5, 5]} intensity={1} /> */}
  
