@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 
-// import { navLinks } from "./../constants";
+import { navLinks } from "./../constants";
 
 const NavBar = () => {
   // track if the user has scrolled down the page
@@ -28,7 +28,7 @@ const NavBar = () => {
         <a href="#hero" className="logo">
           Ruth Moraa
         </a>
-{/* 
+
         <nav className="desktop">
           <ul>
             {navLinks.map(({ link, name }) => (
@@ -40,7 +40,7 @@ const NavBar = () => {
               </li>
             ))}
           </ul>
-        </nav> */}
+        </nav>
 
         <a href="#contact" className="contact-btn group">
           <div className="inner">
