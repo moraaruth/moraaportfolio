@@ -5,6 +5,7 @@ import ShowcaseSection from './sections/ShowcaseSection'
 import AnimatedCounter from './components/AnimatedCounter'
 import FeatureCards from './sections/FeatureCards'
 import Experience from './sections/ExprienceSection'
+import TechStack from './sections/TechStack'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <ShowcaseSection />
       <FeatureCards />
       <Experience />
+      <TechStack />
     </>
   )
 }
