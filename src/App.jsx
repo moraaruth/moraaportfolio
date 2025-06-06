@@ -6,6 +6,7 @@ import AnimatedCounter from './components/AnimatedCounter'
 import FeatureCards from './sections/FeatureCards'
 import Experience from './sections/ExprienceSection'
 import TechStack from './sections/TechStack'
+import Testimonials from './sections/Tesimonials'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <FeatureCards />
       <Experience />
       <TechStack />
+      <Testimonials />
     </>
   )
 }
