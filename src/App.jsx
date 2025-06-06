@@ -3,6 +3,7 @@ import Hero from './sections/Hero'
 import NavBar from './components/NavBar'
 import ShowcaseSection from './sections/ShowcaseSection'
 import AnimatedCounter from './components/AnimatedCounter'
+import FeatureCards from './sections/FeatureCards'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero />
       <AnimatedCounter />
       <ShowcaseSection />
+      <FeatureCards />
     </>
   )
 }
