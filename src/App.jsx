@@ -4,6 +4,7 @@ import NavBar from './components/NavBar'
 import ShowcaseSection from './sections/ShowcaseSection'
 import AnimatedCounter from './components/AnimatedCounter'
 import FeatureCards from './sections/FeatureCards'
+import Experience from './sections/ExprienceSection'
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <AnimatedCounter />
       <ShowcaseSection />
       <FeatureCards />
+      <Experience />
     </>
   )
 }
