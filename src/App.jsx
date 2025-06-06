@@ -6,7 +6,7 @@ import ShowcaseSection from './sections/ShowcaseSection'
 const App = () => {
   return (
     <>
-    {/* <NavBar /> */}
+    <NavBar />
     <Hero />
 <ShowcaseSection />
     </>
