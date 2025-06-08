@@ -162,7 +162,7 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Ruth brought creativity and technical expertise to the team, significantly improving our frontend performance. His work has been invaluable in delivering faster experiences.",
+    review: "Ruth brought creativity and technical expertise to the team, significantly improving our frontend performance. Her work has been invaluable in delivering faster experiences.",
     imgPath: "./assets/public/images/exp1.png",
     logoPath: "./assets/public/images/logo1.png",
     title: "Frontend Developer",
