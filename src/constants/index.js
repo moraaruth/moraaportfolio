@@ -18,16 +18,15 @@ const navLinks = [
   },
 ];
 export const words = [
-  { text: 'Ideas', imgPath: './assets/public/images/ideas.svg' },
-  { text: 'Concepts', imgPath: './assets/public/images/concepts.svg' },
-  { text: 'Designs', imgPath: './assets/public/images/designs.svg' },
-  { text: 'Code', imgPath: './assets/public/images/code.svg' },
-  { text: 'Concepts', imgPath: './assets/public/images/concepts.svg' },
-  { text: 'Ideas', imgPath: './assets/public/images/ideas.svg' },
-  { text: 'Concepts', imgPath: './assets/public/images/concepts.svg' },
-  { text: 'Designs', imgPath: './assets/public/images/designs.svg' },
-  { text: 'Code', imgPath: './assets/public/images/code.svg' },
-  { text: 'Concepts', imgPath: './assets/public/images/concepts.svg' },
+  { text: 'Insights', imgPath: './assets/public/images/ideas.svg' },
+  { text: 'Blueprints', imgPath: './assets/public/images/concepts.svg' },
+  { text: 'Mockups', imgPath: './assets/public/images/designs.svg' },
+  { text: 'Scripts', imgPath: './assets/public/images/code.svg' },
+  { text: 'Sparks', imgPath: './assets/public/images/ideas.svg' },
+  { text: 'Frameworks', imgPath: './assets/public/images/concepts.svg' },
+  { text: 'Sketches', imgPath: './assets/public/images/designs.svg' },
+  { text: 'Builds', imgPath: './assets/public/images/code.svg' },
+  { text: 'Notions', imgPath: './assets/public/images/concepts.svg' },
 
 
 ]
