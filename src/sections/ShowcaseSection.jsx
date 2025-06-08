@@ -53,11 +53,10 @@ const AppShowcase = () => {
             </div>
             <div className="text-content">
               <h2>
-                On-Demand Rides Made Simple with a Powerful, User-Friendly App
-                called Ryde
+              The Real Estate Management Website
               </h2>
               <p className="text-white-50 md:text-xl">
-                An app built with React Native, Expo, & TailwindCSS for a fast,
+                An app built with ReactJs, NextAuth, & TailwindCSS for a fast,
                 user-friendly experience.
               </p>
             </div>
@@ -71,7 +70,7 @@ const AppShowcase = () => {
                   alt="perfect homes"
                 />
               </div>
-              <h2>The Real Estate Management Platform</h2>
+              <h2>The Health Management Website</h2>
             </div>
 
             <div className="project" ref={ycDirectoryRef}>
