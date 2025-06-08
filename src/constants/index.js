@@ -74,23 +74,35 @@ const logoIconsList = [
   },
 ];
 
+
 const abilities = [
   {
     imgPath: "./assets/public/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
+    title: "Quality-Driven",
+    desc: "Delivering pixel-perfect designs, robust code, and user-focused solutions with an unwavering commitment to excellence.",
   },
   {
     imgPath: "./assets/public/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
+    title: "Effective Communication",
+    desc: "Translating complex tech into simple language and keeping stakeholders informed every step of the way.",
   },
   {
     imgPath: "./assets/public/images/time.png",
     title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
+    desc: "Consistently meeting deadlines and exceeding expectations without compromising quality.",
+  },
+  {
+    imgPath: "./assets/public/images/seo.png",
+    title: "Cross-Functional Collaboration",
+    desc: "Bridging the gap between design, development, and customer service to create seamless user experiences.",
+  },
+  {
+    imgPath: "./assets/public/images/chat.png",
+    title: "Problem Solver",
+    desc: "Diagnosing issues quickly and providing creative, effective solutions—whether it’s code, design, or customer challenges.",
   },
 ];
+
 
 const techStackImgs = [
   {
