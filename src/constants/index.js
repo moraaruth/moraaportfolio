@@ -166,7 +166,7 @@ const expCards = [
     // imgPath: "./assets/public/images/exp1.png",
     // logoPath: "./assets/public/images/logo1.png",
     title: "Frontend Developer",
-    date: "January 2023 - Present",
+    date: "January 2024 - Present",
     responsibilities: [
       "Developed and maintained user-facing features for the website.",
       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
@@ -177,13 +177,16 @@ const expCards = [
     review: "Ruth’s contributions to Power app applications have been outstanding. She approaches challenges with a problem-solving mindset.",
     // imgPath: "./assets/public/images/exp2.png",
     // logoPath: "./assets/public/images/logo2.png",
-    title: "Full Stack Developer",
-    date: "June 2020 - December 2023",
-    responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
-    ],
+    
+      title: "Service Reliability Engineer",
+      date: "June 2023 - December 2024",
+      responsibilities: [
+        "Led the development of a scalable customer feedback application, ensuring smooth user experience and high system performance.",
+        "Collaborated with engineers to integrate APIs seamlessly with frontend systems, enhancing data flow and reliability.",
+        "Automated repetitive processes using Power Automate, significantly improving team efficiency and reducing manual workload.",
+      ],
+    
+    
   },
   {
     review: "Ruth’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
