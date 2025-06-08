@@ -163,20 +163,20 @@ const techStackIcons = [
 const expCards = [
   {
     review: "Ruth brought creativity and technical expertise to the team, significantly improving our frontend performance. Her work has been invaluable in delivering faster experiences.",
-    imgPath: "./assets/public/images/exp1.png",
-    logoPath: "./assets/public/images/logo1.png",
+    // imgPath: "./assets/public/images/exp1.png",
+    // logoPath: "./assets/public/images/logo1.png",
     title: "Frontend Developer",
     date: "January 2023 - Present",
     responsibilities: [
-      "Developed and maintained user-facing features for the Hostinger website.",
+      "Developed and maintained user-facing features for the website.",
       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
       "Optimized web applications for maximum speed and scalability.",
     ],
   },
   {
-    review: "Ruth’s contributions to Docker's web applications have been outstanding. He approaches challenges with a problem-solving mindset.",
-    imgPath: "./assets/public/images/exp2.png",
-    logoPath: "./assets/public/images/logo2.png",
+    review: "Ruth’s contributions to Power app applications have been outstanding. She approaches challenges with a problem-solving mindset.",
+    // imgPath: "./assets/public/images/exp2.png",
+    // logoPath: "./assets/public/images/logo2.png",
     title: "Full Stack Developer",
     date: "June 2020 - December 2023",
     responsibilities: [
