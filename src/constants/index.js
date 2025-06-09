@@ -162,16 +162,19 @@ const techStackIcons = [
 
 const expCards = [
   {
-    review: "Ruth’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "./assets/public/images/exp3.png",
-    logoPath: "./assets/public/images/logo3.png",
-    title: "ReactJs Developer",
-    date: "June 2025 - Present",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
-    ],
+    
+      review: "Ruth’s work on the Safaricom customer feedback platform demonstrated exceptional skill and dedication. She built a seamless integration between the ReactJS frontend and the Java backend, ensuring a smooth and secure user experience. Her solutions significantly improved efficiency and met our project goals.",
+      // imgPath: "./assets/public/images/exp3.png",
+      // logoPath: "./assets/public/images/logo3.png",
+      title: "ReactJS Developer",
+      date: "June 2025 - Present",
+      responsibilities: [
+        "Developed a customer feedback platform using ReactJS with a Java backend, integrating APIs, proxies, and NextAuth for secure authentication.",
+        "Enabled customers to provide feedback and suggestions on Safaricom products, with the information routed to relevant teams for prompt action.",
+        "Enhanced overall user experience and system reliability through thorough testing and performance optimization."
+      ]
+    
+    
   },
   {
     review: "Ruth brought creativity and technical expertise to the team, significantly improving our frontend performance. Her work has been invaluable in delivering faster experiences.",
@@ -188,7 +191,7 @@ const expCards = [
   {
     review: "Ruth’s contributions to Power app applications have been outstanding. She approaches challenges with a problem-solving mindset.",
     // imgPath: "./assets/public/images/exp2.png",
-     logoPath: "./assets/public/images/logo2.png",
+    //  logoPath: "./assets/public/images/logo2.png",
     
       title: "Service Reliability Engineer",
       date: "June 2023 - December 2024",
