@@ -162,11 +162,23 @@ const techStackIcons = [
 
 const expCards = [
   {
+    review: "Ruth’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
+    imgPath: "./assets/public/images/exp3.png",
+    logoPath: "./assets/public/images/logo3.png",
+    title: "ReactJs Developer",
+    date: "June 2025 - Present",
+    responsibilities: [
+      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
+      "Improved app performance and user experience through code optimization and testing.",
+      "Coordinated with the product team to implement features based on feedback.",
+    ],
+  },
+  {
     review: "Ruth brought creativity and technical expertise to the team, significantly improving our frontend performance. Her work has been invaluable in delivering faster experiences.",
     // imgPath: "./assets/public/images/exp1.png",
     // logoPath: "./assets/public/images/logo1.png",
     title: "Frontend Developer",
-    date: "January 2024 - Present",
+    date: "January 2024 - May 2025",
     responsibilities: [
       "Developed and maintained user-facing features for the website.",
       "Collaborated closely with UI/UX designers to ensure seamless user experiences.",
@@ -176,7 +188,7 @@ const expCards = [
   {
     review: "Ruth’s contributions to Power app applications have been outstanding. She approaches challenges with a problem-solving mindset.",
     // imgPath: "./assets/public/images/exp2.png",
-    // logoPath: "./assets/public/images/logo2.png",
+     logoPath: "./assets/public/images/logo2.png",
     
       title: "Service Reliability Engineer",
       date: "June 2023 - December 2024",
@@ -184,22 +196,9 @@ const expCards = [
         "Led the development of a scalable customer feedback application, ensuring smooth user experience and high system performance.",
         "Collaborated with engineers to integrate APIs seamlessly with frontend systems, enhancing data flow and reliability.",
         "Automated repetitive processes using Power Automate, significantly improving team efficiency and reducing manual workload.",
-      ],
-    
-    
+      ],     
   },
-  {
-    review: "Ruth’s work on Appwrite’s mobile app brought a high level of quality and efficiency. He delivered solutions that enhanced our mobile experience & meet our product goals.",
-    imgPath: "./assets/public/images/exp3.png",
-    logoPath: "./assets/public/images/logo3.png",
-    title: "React Native Developer",
-    date: "March 2019 - May 2020",
-    responsibilities: [
-      "Built cross-platform mobile apps using React Native, integrating with Appwrite's backend services.",
-      "Improved app performance and user experience through code optimization and testing.",
-      "Coordinated with the product team to implement features based on feedback.",
-    ],
-  },
+ 
 ];
 
 const expLogos = [
