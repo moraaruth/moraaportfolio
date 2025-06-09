@@ -16,6 +16,10 @@ const navLinks = [
     name: "Testimonials",
     link: "#testimonials",
   },
+  {
+    name: "AWS Course",
+    link: "#aws",
+  },
 ];
 export const words = [
   { text: 'Insights', imgPath: './assets/public/images/ideas.svg' },
