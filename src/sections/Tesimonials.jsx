@@ -15,13 +15,13 @@ const Testimonials = () => {
           {testimonials.map((testimonial, index) => (
             <GlowCard card={testimonial} key={index} index={index}>
               <div className="flex items-center gap-3">
-                <div>
+                {/* <div>
                   <img src={testimonial.imgPath} alt="" />
-                </div>
-                <div>
+                </div> */}
+                {/* <div>
                   <p className="font-bold">{testimonial.name}</p>
                   <p className="text-white-50">{testimonial.mentions}</p>
-                </div>
+                </div> */}
               </div>
             </GlowCard>
           ))}
