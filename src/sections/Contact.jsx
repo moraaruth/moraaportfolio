@@ -107,11 +107,11 @@ const Contact = () => {
               </form>
             </div>
           </div>
-          <div className="xl:col-span-7 min-h-96">
+          {/* <div className="xl:col-span-7 min-h-96">
             <div className="bg-[#cd7c2e] w-full h-full hover:cursor-grab rounded-3xl overflow-hidden">
               <ContactExperience />
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
