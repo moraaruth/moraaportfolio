@@ -228,21 +228,21 @@ const testimonials = [
     name: "Esther Howard",
     mentions: "@estherhoward",
     review:
-      "I can’t say enough good things about Ruth. She was able to take our complex project requirements and turn them into a seamless, functional website. His problem-solving abilities are outstanding.",
+      "I can’t say enough good things about Ruth. She was able to take our complex project requirements and turn them into a seamless, functional website. Her problem-solving abilities are outstanding.",
     imgPath: "/images/client1.png",
   },
   {
     name: "Wade Warren",
     mentions: "@wadewarren",
     review:
-      "Working with Ruth was a fantastic experience. She transformed our outdated website into a modern, user-friendly platform. His attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
+      "Working with Ruth was a fantastic experience. She transformed our outdated website into a modern, user-friendly platform. Her attention to detail and commitment to quality are unmatched. Highly recommend him for any web dev projects.",
     imgPath: "/images/client3.png",
   },
   {
     name: "Guy Hawkins",
     mentions: "@guyhawkins",
     review:
-      "Collaborating with Ruth was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ruth's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ruth is the ideal partner.",
+      "Collaborating with Ruth was an absolute pleasure. Her professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Ruth's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Ruth is the ideal partner.",
     imgPath: "/images/client2.png",
   },
   {
@@ -263,7 +263,7 @@ const testimonials = [
     name: "Albert Flores",
     mentions: "@albertflores",
     review:
-      "Ruth was a pleasure to work with. She understood our requirements perfectly and delivered a website that exceeded our expectations. His skills in both frontend and backend dev are top-notch.",
+      "Ruth was a pleasure to work with. She understood our requirements perfectly and delivered a website that exceeded our expectations. Her skills in both frontend and backend dev are top-notch.",
     imgPath: "/images/client6.png",
   },
 ];
