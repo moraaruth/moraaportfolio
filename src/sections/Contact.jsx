@@ -7,6 +7,7 @@ import ContactExperience from "../components/models/contact/ContactExprience";
 const Contact = () => {
   const formRef = useRef(null);
   const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState(false);
   const [form, setForm] = useState({
     name: "",
     email: "",
@@ -32,6 +33,8 @@ const Contact = () => {
 
       // Reset form and stop loading
       setForm({ name: "", email: "", message: "" });
+      setSuccess(true);
+      setTimeout(() => setSuccess(false), 3000);
     } catch (error) {
       console.error("EmailJS Error:", error); // Optional: show toast
     } finally {
@@ -92,6 +95,12 @@ const Contact = () => {
                     required
                   />
                 </div>
+
+                {success && (
+                  <div className="bg-green-500 text-white p-3 rounded-lg mb-4 text-center">
+                    ✅ Message sent successfully!
+                  </div>
+                )}
 
                 <button type="submit">
                   <div className="cta-button group">
