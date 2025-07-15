@@ -47,7 +47,7 @@ const Contact = () => {
           sub="💬 Have questions or ideas? Let’s talk! 🚀"
         />
         <div className="grid-12-cols mt-16">
-          <div className="xl:col-span-5">
+          <div className="">
             <div className="flex-center card-border rounded-xl p-10">
               <form
                 ref={formRef}
