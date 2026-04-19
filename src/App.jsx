@@ -2,6 +2,7 @@ import React from 'react'
 import Hero from './sections/Hero'
 import NavBar from './components/NavBar'
 import ShowcaseSection from './sections/ShowcaseSection'
+import AISection from './sections/AISection'
 import AnimatedCounter from './components/AnimatedCounter'
 import FeatureCards from './sections/FeatureCards'
 import Experience from './sections/ExprienceSection'
@@ -17,6 +18,7 @@ const App = () => {
       <Hero />
       <AnimatedCounter />
       <ShowcaseSection />
+      <AISection />
       <FeatureCards />
       <Experience />
       {/* <TechStack /> */}

@@ -1,9 +1,8 @@
-import { useRef } from "react";
-import gsap from "gsap";
-import { useGSAP } from "@gsap/react";
-import { ScrollTrigger } from "gsap/all";
-
-import { counterItems } from "../constants";
+import { useRef } from 'react';
+import gsap from 'gsap';
+import { useGSAP } from '@gsap/react';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import { counterItems } from '../constants';
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -12,29 +11,35 @@ const AnimatedCounter = () => {
   const countersRef = useRef([]);
 
   useGSAP(() => {
+    // Slide-up entrance for each card
+    gsap.fromTo(
+      countersRef.current,
+      { opacity: 0, y: 40, scale: 0.95 },
+      {
+        opacity: 1,
+        y: 0,
+        scale: 1,
+        duration: 0.7,
+        stagger: 0.12,
+        ease: 'power3.out',
+        scrollTrigger: { trigger: counterRef.current, start: 'top 85%' },
+      }
+    );
+
+    // Count-up animation
     countersRef.current.forEach((counter, index) => {
-      const numberElement = counter.querySelector(".counter-number");
+      const numberElement = counter.querySelector('.counter-number');
       const item = counterItems[index];
-
-      // Set initial value to 0
-      gsap.set(numberElement, { innerText: "0" });
-
-      // Create the counting animation
+      gsap.set(numberElement, { innerText: '0' });
       gsap.to(numberElement, {
         innerText: item.value,
         duration: 2.5,
-        ease: "power2.out",
-        snap: { innerText: 1 }, // Ensures whole numbers
-        scrollTrigger: {
-          trigger: "#counter",
-          start: "top center",
-        },
-        // Add the suffix after counting is complete
-        onComplete: () => {
-          numberElement.textContent = `${item.value}${item.suffix}`;
-        },
+        ease: 'power2.out',
+        snap: { innerText: 1 },
+        scrollTrigger: { trigger: '#counter', start: 'top center' },
+        onComplete: () => { numberElement.textContent = `${item.value}${item.suffix}`; },
       });
-    }, counterRef);
+    });
   }, []);
 
   return (
@@ -44,10 +49,10 @@ const AnimatedCounter = () => {
           <div
             key={index}
             ref={(el) => el && (countersRef.current[index] = el)}
-            className="bg-zinc-900 rounded-lg p-10 flex flex-col justify-center"
+            className="bg-zinc-900 rounded-lg p-10 flex flex-col justify-center hover:bg-zinc-800 transition-colors duration-300"
           >
             <div className="counter-number text-white-50 text-5xl font-bold mb-2">
-              0 {item.suffix}
+              0{item.suffix}
             </div>
             <div className="text-white-50 text-lg">{item.label}</div>
           </div>
