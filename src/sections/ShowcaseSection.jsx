@@ -61,25 +61,58 @@ const AppShowcase = () => {
             </div>
           </div>
 
-         <div className="project" ref={libraryRef}>
-  <div className="image-wrapper bg-[#FFEFDB]">
-    <img src="/images/project5.png" alt="Health Management Website" />
-  </div>
-  <div className="text-content">
-    <h2>The Health Management Website</h2>
-  </div>
-</div>
+  <section className="project-list-wrapper grid grid-cols-1 md:grid-cols-2 gap-8 w-full max-w-6xl mx-auto">
+  
+  {/* PROJECT 1 */}
+  <article className="project flex flex-col overflow-hidden">
+    <div className="image-wrapper bg-[#FFEFDB] overflow-hidden rounded-lg">
+      <img
+        src="/images/project5.png"
+        alt="Health Management Website"
+        className="w-full h-60 object-cover"
+      />
+    </div>
+
+    <div className="text-content mt-4">
+      <h2 className="text-white text-xl md:text-2xl font-semibold">
+        The Health Management Website
+      </h2>
+    </div>
+  </article>
+
+  {/* PROJECT 2 */}
+  <article className="project flex flex-col overflow-hidden">
+    <div className="image-wrapper overflow-hidden rounded-lg">
+      <img
+        src="/images/perfecthomesss.png"
+        alt="Real Estate Website"
+        className="w-full h-60 object-cover"
+      />
+    </div>
+
+    <div className="text-content mt-4">
+      <h2 className="text-white text-xl md:text-2xl font-semibold">
+        The Real Estate Management Website
+      </h2>
+
+      <p className="text-white/70 mt-2">
+        Built with ReactJS, NextAuth & TailwindCSS
+      </p>
+    </div>
+  </article>
+
+</section>
 
 <div className="project" ref={rydeRef}>
   <div className="image-wrapper">
-    <img src="/images/perfecthomesss.png" alt="Real Estate Management" />
+    <img src="/images/more work.png" alt="Real Estate Management" />
   </div>
-  <div className="text-content">
+  {/* <div className="text-content">
     <h2>The Real Estate Management Website</h2>
     <p className="text-white-50 md:text-xl">
       An app built with ReactJS, NextAuth, & TailwindCSS for a fast, user-friendly experience.
     </p>
-  </div>
+  </div> */}
 </div>
         </div>
       </div>
