@@ -76,7 +76,11 @@ const AppShowcase = () => {
     <div className="text-content mt-4">
       <h2 className="text-white text-xl md:text-2xl font-semibold">
         The Health Management Website
+        
       </h2>
+       <p className="text-white/70 mt-2">
+       A smart health management platform designed to streamline patient records, appointments, and healthcare operations efficiently.
+      </p>
     </div>
   </article>
 
@@ -96,11 +100,30 @@ const AppShowcase = () => {
       </h2>
 
       <p className="text-white/70 mt-2">
-        Built with ReactJS, NextAuth & TailwindCSS
+       A modern real estate management platform built with ReactJS, NextAuth, and TailwindCSS for seamless property, tenant, and rental operations.
       </p>
     </div>
   </article>
+  {/* project 3 */}
+ <article className="project flex flex-col overflow-hidden">
+    <div className="image-wrapper overflow-hidden rounded-lg">
+      <img
+        src="/images/whatsappautomation.png"
+        alt="Real Estate Website"
+        className="w-full h-60 object-cover"
+      />
+    </div>
 
+    <div className="text-content mt-4">
+      <h2 className="text-white text-xl md:text-2xl font-semibold">
+        Whatsapp Automation
+      </h2>
+
+      <p className="text-white/70 mt-2">
+        An intelligent WhatsApp automation platform for managing customer communication, workflows, and business engagement at scale.
+      </p>
+    </div>
+  </article>
 </section>
 
 <div className="project" ref={rydeRef}>
